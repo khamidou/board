@@ -1,0 +1,9 @@
+<ul>
+{{with .Posts}}
+    {{range $index, $element := .}}
+    <li>
+        <a href="/post?id={{ $index }}">{{$element.Title}}</a>
+    </li>
+    {{end}}
+{{end}}
+</ul>
