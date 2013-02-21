@@ -1,0 +1,4 @@
+board
+=====
+
+A small board
